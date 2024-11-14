@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;700&display=swap');
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+}
+
+/* Pricing Section Styling */
+.pricing-section {
+  background-color: white;
+  padding: 60px 20px;
+  color: #080A45;
+  text-align: center;
+}
+
+/* Section Headings */
+.topic {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #080A45;
+  margin-bottom: 15px;
+  letter-spacing: 0.04em;
+}
+
+.pricing-heading {
+  font-size: 2.4em;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.pricing-subheading {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Pricing Box */
+.pricing-box {
+  background-color: #f3f2ff;
+  border: 2px solid #e0dbff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Box Header */
+.pricing-box h4 {
+  font-size: 1.5em;
+  margin: 0 0 15px;
+  color: #080A45;
+}
+
+.price {
+  font-size: 2.2em;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Features List */
+.pricing-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.pricing-box ul li {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #666;
+  position: relative;
+  padding-left: 20px;
+}
+
+.pricing-box ul li::before {
+  content: "✓";
+  color: #080A45;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Button Styling */
+.pricing-button {
+  background-color: white;
+  color: white;
+  border: 2px solid #080A45;
+  border-radius: 25px;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pricing-button:hover {
+  background-color: #080A45;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .pricing-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .topic {
+    font-size: 1.5em;
+  }
+
+  .pricing-heading {
+    font-size: 2em;
+  }
+}
