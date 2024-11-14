@@ -35,7 +35,7 @@ const Navbar = () => {
       <ul className="nav navbar-nav">
         <li><a href="#about" className="page-scroll">About</a></li>
         <li><a href="#Pricing" className="page-scroll">Pricing</a></li>
-        <li><a href="#portfolio" className="page-scroll">FAQ</a></li>
+        <li><a href="#faq" className="page-scroll">FAQ</a></li>
         <li><a href="#team" className="page-scroll">Team</a></li>
         <li><a href="#contact" className="page-scroll">Contact</a></li>
       </ul>

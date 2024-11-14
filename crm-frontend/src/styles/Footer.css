@@ -4,16 +4,12 @@ footer {
     padding: 5rem 0;
   }
   
-  footer .footer-logo {
-    margin-bottom: 3rem;
-    width: 150px;
-  }
+  
   
   footer .footer-socials {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
     margin-right: -1rem;
   }
   

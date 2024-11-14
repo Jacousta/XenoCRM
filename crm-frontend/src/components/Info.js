@@ -1,14 +1,15 @@
 import React from 'react';
 import '../styles/Info.css';
 import { Link } from 'react-scroll';
+import crmImg from '../assets/info.png'
 
 const Info = () => {
   return (
-    <div className="info-section">
-      <div className="info-content">
-        <div className="info-text">
-          <h2 className="info-heading">CRM Solution for Retail</h2>
-          <p>
+    <div id='about' className=" info-section">
+      <div className="mt-28 info-content">
+        <div className="">
+          <h2 className="text-6xl">CRM Solution for Retail</h2>
+          <p className='text-xl'>
           A retail-focused CRM powerhouse for effortless Personalisation
           </p>
           <Link
@@ -23,7 +24,7 @@ const Info = () => {
           </Link>
         </div>
         <div className="info-image">
-          <img src="crm-frontend/src/assets/info.png" alt="CRM Illustration" />
+          <img src={crmImg} className='ml-8 w-[550px] h-96' alt="CRM Illustration" />
         </div>
       </div>
     </div>

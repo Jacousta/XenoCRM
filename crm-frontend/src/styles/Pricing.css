@@ -9,7 +9,7 @@ body {
 
 /* Pricing Section Styling */
 .pricing-section {
-  background-color: white;
+  /* background-color: white; */
   padding: 60px 20px;
   color: #080A45;
   text-align: center;
@@ -104,7 +104,7 @@ body {
 
 /* Button Styling */
 .pricing-button {
-  background-color: white;
+  background-color: #080A45;
   color: white;
   border: 2px solid #080A45;
   border-radius: 25px;
@@ -119,7 +119,8 @@ body {
 }
 
 .pricing-button:hover {
-  background-color: #080A45;
+  background-color: #0c0f5a;
+  transform: scale(1.05);
 }
 
 /* Responsive Adjustments */

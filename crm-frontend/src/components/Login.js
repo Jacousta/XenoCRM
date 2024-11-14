@@ -31,7 +31,8 @@ const Login = () => {
       <nav className="navbar">
         <h1 className="logo"><RouterLink to="/" id="logo-link">XENO CRM</RouterLink></h1>
       </nav>
-      <div className="login-container">
+      <div className="login-container flex flex-col">
+        <h1 className='text-2xl font-bold mb-4'>Login to your account</h1>
         <form className="login-form" onSubmit={handleSubmit}>
           <input 
             type="email" 

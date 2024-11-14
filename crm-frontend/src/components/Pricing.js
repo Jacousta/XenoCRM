@@ -4,10 +4,10 @@ import {Link as RouterLink} from 'react-router-dom'
 
 const Pricing = () => {
   return (
-    <div className="pricing-section">
-      <h1 className="topic">Everything You Need In One Platform
+    <div id='Pricing' className="pricing-section">
+      <h1 className="text-4xl font-bold">Everything You Need In One Platform
       </h1>
-      <h4 className="pricing-heading">Xeno is an end-to-end complete CRM solution designed specially for retail, built to maximize</h4>
+      <h4 className="text-2xl my-6">Xeno is an end-to-end complete CRM solution designed specially for retail, built to maximize</h4>
       <div className="pricing-grid">
         <div className="pricing-box">
           <h4>Deep customer understanding</h4>
@@ -22,7 +22,7 @@ const Pricing = () => {
           <RouterLink to="/register"><button className="pricing-button">Continue with Free</button></RouterLink>
         </div>
         <div className="pricing-box">
-          <h4>Personalised Marketing Campaigns at scale</h4>
+          <h4>Marketing Campaigns at scale</h4>
           <p>Drive customer engagement and conversions by running hyper-personalized marketing campaigns at scale across popular channels like Facebook, Instagram, WhatsApp, and email.</p>
           <div className="price">$29</div>
           <ul>
